@@ -7,7 +7,13 @@ export default defineNuxtConfig({
 		compatibilityVersion: 4
 	},
 
-    modules: ["@nuxtjs/robots", "@nuxtjs/sitemap", "@nuxt/image", "nuxt-delay-hydration"],
+    modules: [
+        "@nuxtjs/robots",
+        "@nuxtjs/sitemap",
+        "@nuxt/image",
+        "nuxt-delay-hydration",
+        "nuxt-svgo"
+    ],
 
 	robots: {
 		disallow: []
@@ -35,5 +41,9 @@ export default defineNuxtConfig({
 		mode: "mount",
 		// enables nuxt-delay-hydration in dev mode for testing
 		debug: process.env.NODE_ENV === 'development'
-	}
+	},
+
+	svgo: {
+		global: false,
+	},
 })
