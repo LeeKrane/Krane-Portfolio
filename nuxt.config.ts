@@ -14,7 +14,8 @@ export default defineNuxtConfig({
         "nuxt-delay-hydration",
         "nuxt-svgo",
         "nuxt-security",
-        "@nuxt/fonts"
+        "@nuxt/fonts",
+        "@nuxtjs/tailwindcss"
     ],
 
 	robots: {
@@ -57,6 +58,18 @@ export default defineNuxtConfig({
 		defaults: {
 			weights: [200, 300, 400, 500, 600, 700],
 			styles: ["normal", "italic"]
+		}
+	},
+
+	tailwindcss: {
+		config: {
+			theme: {
+				extend: {
+					fontFamily: {
+						custom: ["Inter", "Noto Sans", "sans-serif"]
+					},
+				},
+			},
 		}
 	}
 })
