@@ -15,7 +15,8 @@ export default defineNuxtConfig({
         "nuxt-svgo",
         "nuxt-security",
         "@nuxt/fonts",
-        "@nuxtjs/tailwindcss"
+        "@nuxtjs/tailwindcss",
+		"@nuxtjs/critters"
     ],
 
 	robots: {
