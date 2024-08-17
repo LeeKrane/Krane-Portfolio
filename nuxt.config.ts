@@ -7,9 +7,14 @@ export default defineNuxtConfig({
 		compatibilityVersion: 4
 	},
 
-    modules: ["@nuxtjs/robots"],
+    modules: ["@nuxtjs/robots", "@nuxtjs/sitemap"],
 
 	robots: {
 		disallow: []
+	},
+
+	site: {
+		url: "https://example.com",
+		name: "Example Website",
 	}
 })
