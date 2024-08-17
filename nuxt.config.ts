@@ -12,7 +12,6 @@ export default defineNuxtConfig({
         "@nuxtjs/sitemap",
         "@nuxt/image",
         "nuxt-delay-hydration",
-        "nuxt-svgo",
         "nuxt-security",
         "@nuxt/fonts",
         "@nuxtjs/tailwindcss",
