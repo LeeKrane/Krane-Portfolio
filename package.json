@@ -20,5 +20,8 @@
 		"nuxt-security": "2.0.0-rc.9",
 		"nuxt-svgo": "^4.0.3",
 		"vue": "latest"
+	},
+	"devDependencies": {
+		"daisyui": "^4.12.10"
 	}
 }
