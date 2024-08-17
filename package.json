@@ -7,7 +7,9 @@
 		"dev": "nuxt dev",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare"
+		"postinstall": "nuxt prepare",
+		"lhci:mobile": "lhci autorun",
+		"lhci:desktop": "lhci autorun --collect.settings.preset=desktop"
 	},
 	"dependencies": {
 		"@nuxt/fonts": "^0.7.2",
@@ -23,6 +25,7 @@
 		"vue": "latest"
 	},
 	"devDependencies": {
+		"@lhci/cli": "^0.14.0",
 		"daisyui": "^4.12.10"
 	}
 }
