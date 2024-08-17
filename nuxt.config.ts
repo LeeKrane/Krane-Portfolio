@@ -46,10 +46,6 @@ export default defineNuxtConfig({
 		debug: process.env.NODE_ENV === 'development'
 	},
 
-	svgo: {
-		global: false,
-	},
-
 	security: {
 		
 	},
