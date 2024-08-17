@@ -12,7 +12,8 @@ export default defineNuxtConfig({
         "@nuxtjs/sitemap",
         "@nuxt/image",
         "nuxt-delay-hydration",
-        "nuxt-svgo"
+        "nuxt-svgo",
+        "nuxt-security"
     ],
 
 	robots: {
@@ -46,4 +47,8 @@ export default defineNuxtConfig({
 	svgo: {
 		global: false,
 	},
+
+	security: {
+		
+	}
 })
