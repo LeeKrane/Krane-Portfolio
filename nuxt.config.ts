@@ -13,7 +13,8 @@ export default defineNuxtConfig({
         "@nuxt/image",
         "nuxt-delay-hydration",
         "nuxt-svgo",
-        "nuxt-security"
+        "nuxt-security",
+        "@nuxt/fonts"
     ],
 
 	robots: {
@@ -50,5 +51,12 @@ export default defineNuxtConfig({
 
 	security: {
 		
+	},
+
+	fonts: {
+		defaults: {
+			weights: [200, 300, 400, 500, 600, 700],
+			styles: ["normal", "italic"]
+		}
 	}
 })
