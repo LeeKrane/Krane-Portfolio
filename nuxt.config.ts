@@ -58,14 +58,6 @@ export default defineNuxtConfig({
 	},
 
 	tailwindcss: {
-		config: {
-			theme: {
-				extend: {
-					fontFamily: {
-						custom: ["Inter", "Noto Sans", "sans-serif"]
-					},
-				},
-			},
-		}
-	}
+
+	},
 })

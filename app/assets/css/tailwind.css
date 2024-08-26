@@ -5,3 +5,7 @@
 @font-face {
 	font-display: swap;
 }
+
+body {
+	font-family: Inter, "Noto Sans", sans-serif;
+}
