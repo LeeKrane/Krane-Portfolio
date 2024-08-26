@@ -23,9 +23,6 @@ importers:
       '@nuxtjs/sitemap':
         specifier: 6.0.0-beta.2
         version: 6.0.0-beta.2(h3@1.12.0)(magicast@0.3.4)(rollup@4.20.0)(vite@5.4.1(@types/node@22.4.0)(terser@5.31.6))(vue@3.4.38)
-      '@nuxtjs/tailwindcss':
-        specifier: ^6.12.1
-        version: 6.12.1(magicast@0.3.4)(rollup@4.20.0)
       nuxt:
         specifier: ^3.12.4
         version: 3.12.4(@parcel/watcher@2.4.1)(@types/node@22.4.0)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.20.0)(terser@5.31.6)(vite@5.4.1(@types/node@22.4.0)(terser@5.31.6))
@@ -35,6 +32,9 @@ importers:
       nuxt-security:
         specifier: 2.0.0-rc.9
         version: 2.0.0-rc.9(magicast@0.3.4)(rollup@4.20.0)
+      tailwindcss:
+        specifier: ^3.4.10
+        version: 3.4.10
       vue:
         specifier: latest
         version: 3.4.38
@@ -42,6 +42,9 @@ importers:
       '@lhci/cli':
         specifier: ^0.14.0
         version: 0.14.0
+      '@nuxtjs/tailwindcss':
+        specifier: ^6.12.1
+        version: 6.12.1(magicast@0.3.4)(rollup@4.20.0)
       daisyui:
         specifier: ^4.12.10
         version: 4.12.10(postcss@8.4.41)
